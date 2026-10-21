@@ -8,6 +8,12 @@
 
 > **在线试玩**：https://lin306808700-ux.github.io/palm-beat/ （需要摄像头与网络）
 
+## 演示
+
+<video src="https://lin306808700-ux.github.io/palm-beat/assets/palm-beat-demo.mp4" poster="https://lin306808700-ux.github.io/palm-beat/assets/demo-poster.jpg" controls muted loop playsinline width="100%"></video>
+
+视频不显示的话，直接打开：[手掌张合演示（MP4）](https://lin306808700-ux.github.io/palm-beat/assets/palm-beat-demo.mp4)
+
 ```
         ●            ← 音符随节拍落下
         │
@@ -103,6 +109,7 @@ python3 -m http.server 8137
 palm-beat/
 ├── index.html          页面结构（HUD / 各面板）
 ├── css/style.css       视觉样式
+├── assets/             演示视频与封面
 ├── js/
 │   ├── game.js         主程序：状态机、判定、渲染、校准、UI
 │   ├── hands.js        摄像头 + HandLandmarker + 握拳状态机
